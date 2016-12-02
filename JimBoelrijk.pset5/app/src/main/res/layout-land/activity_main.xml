@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context="com.example.jim.jimboelrijkpset5.MainActivity"
+    android:weightSum="1">
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center|top"-->
+        <!--android:text="@string/to_do_list_app"-->
+        <!--android:textSize="40sp"-->
+        <!--android:padding="@dimen/activity_horizontal_margin"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:background="@android:color/darker_gray"-->
+        <!--android:id="@+id/textView" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:text="@string/long_press_and_item_to_remove_it"-->
+        <!--/>-->
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="152dp"
+        android:id="@+id/list">
+    </ListView>
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<EditText-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="text"-->
+            <!--android:id="@+id/add_text"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/add"-->
+            <!--android:id="@+id/add_button"-->
+            <!--android:onClick="add"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true" />-->
+    <!--</RelativeLayout>-->
+</LinearLayout>
